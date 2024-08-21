@@ -16,43 +16,43 @@
     "config.animation-speeds": "Vitesse d'animation du joueur",
 
     "config.eat-or-drink.name": "Manger/boire",
-    "config.eat-or-drink.tooltip": "La vitesse à laquelle vous mangez et buvez. Valeur par défaut {{defaultValue}}x.",
+    "config.eat-or-drink.tooltip": "Rapidité avec laquelle vous mangez et buvez. Valeur par défaut {{defaultValue}}x.",
 
     "config.fish.name": "Poisson",
-    "config.fish.tooltip": "La vitesse à laquelle vous lancez et rembobinez lorsque vous pêchez (n'affecte pas le mini-jeu). Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
+    "config.fish.tooltip": "Rapidité avec laquelle vous lancez et rembobinez lorsque vous pêchez (n'affecte pas le mini-jeu). Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
 
     "config.harvest.name": "Récolte",
-    "config.harvest.tooltip": "La vitesse à laquelle vous récoltez les cultures et le fourrage à la main. Valeur par défaut {{defaultValue}}x.",
+    "config.harvest.tooltip": "Rapidité avec laquelle vous récoltez les cultures et les cueillettes à la main. Valeur par défaut {{defaultValue}}x.",
 
-    "config.hold-up-item.name": "Hold up item", // TODO
-    "config.hold-up-item.tooltip": "How fast you hold up an item. Default {{defaultValue}}x.", // TODO
+    "config.hold-up-item.name": "Présenter un objet",
+    "config.hold-up-item.tooltip": "Rapidité avec laquelle vous présentez un objet. Valeur par défault {{defaultValue}}x.",
 
-    "config.horse-flute.name": "Jouer la flûte du cheval",
-    "config.horse-flute.tooltip": "La vitesse à laquelle vous jouez de la flûte du cheval. Valeur par défaut {{defaultValue}}x.",
+    "config.horse-flute.name": "Jouer la flûte de cheval",
+    "config.horse-flute.tooltip": "Rapidité avec laquelle vous jouez de la flûte de cheval. Valeur par défaut {{defaultValue}}x.",
 
     "config.milk.name": "Lait",
-    "config.milk.tooltip": "La vitesse à laquelle vous utilisez le seau à lait. Valeur par défaut {{defaultValue}}x.",
+    "config.milk.tooltip": "Rapidité avec laquelle vous utilisez le seau à lait. Valeur par défaut {{defaultValue}}x.",
 
-    "config.mount.name": "Monter/déscendre",
-    "config.mount.tooltip": "La vitesse à laquelle vous montez/désencdez des chevaux (y compris les montures personnalisées comme le Tractor Mod). Valeur par défaut {{defaultValue}}x.",
+    "config.mount.name": "Monter/descendre",
+    "config.mount.tooltip": "Rapidité avec laquelle vous montez/descendez des chevaux (y compris les montures personnalisées comme le Tractor Mod). Valeur par défaut {{defaultValue}}x.",
 
-    "config.read-book.name": "Read book", // TODO
-    "config.read-book.tooltip": "How fast you read books. Default {{defaultValue}}x.", // TODO
+    "config.read-book.name": "Lire un livre",
+    "config.read-book.tooltip": "Rapidité avec laquelle vous lisez les livres. Valeur par défault {{defaultValue}}x.",
 
-    "config.shear.name": "Ciseaux",
-    "config.shear.tooltip": "La vitesse à laquelle vous utilisez les ciseaux. Valeur par défaut {{defaultValue}}x.",
+    "config.shear.name": "Cisailles",
+    "config.shear.tooltip": "Rapidité avec laquelle vous utilisez les cisailles. Valeur par défaut {{defaultValue}}x.",
 
-    "config.slingshot.name": "Utiliser la fronde",
-    "config.slingshot.tooltip": "La vitesse à laquelle vous tirez lorsque vous utilisez des lance-pierres. Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
+    "config.slingshot.name": "Utiliser le lance-pierre",
+    "config.slingshot.tooltip": "Rapidité avec laquelle vous tirez lorsque vous utilisez le lance-pierre. Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
 
     "config.tool.name": "Utilisation des outils",
-    "config.tool.tooltip": "La vitesse à laquelle vous balancez vos outils (sauf les armes et la canne à pêche). Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
+    "config.tool.tooltip": "Rapidité avec laquelle vous utilisez vos outils (sauf les armes et la canne à pêche). Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
 
-    "config.use-totem.name": "Use totem", // TODO
-    "config.use-totem.tooltip": "How fast you use a totem. Default {{defaultValue}}x.", // TODO
+    "config.use-totem.name": "Utilisez les totems",
+    "config.use-totem.tooltip": "Rapidité avec laquelle vous utilisez les totems. Valeur par défault {{defaultValue}}x.",
 
     "config.weapon.name": "Utilisation des armes",
-    "config.weapon.tooltip": "La vitesse à laquelle vous balancez vos armes. Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
+    "config.weapon.tooltip": "Rapidité avec laquelle vous utilisez vos armes. Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
 
     /****
     ** 'World Animation Speeds' section
@@ -60,51 +60,51 @@
     "config.world-speeds": "Vitesses d'animation dans le monde",
 
     "config.break-geodes.name": "Casser des géodes",
-    "config.break-geodes.tooltip": "La vitesse à laquelle le forgeron casse les géodes pour vous. Valeur par défaut {{defaultValue}}x.",
+    "config.break-geodes.tooltip": "Rapidité avec laquelle le forgeron casse les géodes pour vous. Valeur par défaut {{defaultValue}}x.",
 
     "config.bus.name": "Le bus de Pam",
-    "config.bus.tooltip": "A quelle vitesse Pam conduit son bus pour aller et revenir du désert. Valeur par défaut {{defaultValue}}x.",
+    "config.bus.tooltip": "Rapidité avec laquelle Pam conduit son bus pour aller et revenir du désert. Valeur par défaut {{defaultValue}}x.",
 
     "config.casino-slots.name": "Machines à sous du casino",
-    "config.casino-slots.tooltip": "A quelle vitesse les machines à sous du casino tournent. Valeur par défaut {{defaultValue}}x.",
+    "config.casino-slots.tooltip": "Rapidité avec laquelle les machines à sous du casino tournent. Valeur par défaut {{defaultValue}}x.",
 
-    "config.fade.name": "Fade", // TODO
-    "config.fade.tooltip": "How fast the screen fades to black and fades back in. Default {{defaultValue}}x.", // TODO
+    "config.fade.name": "Fondu au noir",
+    "config.fade.tooltip": "Rapidité avec laquelle l'écran fait les fondus au noir. Valeur par défault {{defaultValue}}x.",
 
-    "config.fishing-treasure.name": "Fishing treasure chest", // TODO
-    "config.fishing-treasure.tooltip": "How fast you open a fishing treasure chest. Default {{defaultValue}}x.", // TODO
+    "config.fishing-treasure.name": "Coffre au trésor de pêche",
+    "config.fishing-treasure.tooltip": "Rapidité avec laquelle vous ouvrez les coffres au trésor de pêche. Valeur par défault {{defaultValue}}x.",
 
-    "config.forge.name": "Forge", // TODO
-    "config.forge.tooltip": "How fast the volcano forge works. Default {{defaultValue}}x.", // TODO
+    "config.forge.name": "Forge",
+    "config.forge.tooltip": "Rapidité avec laquelle la forge du volcan fonctionne. Valeur par défault {{defaultValue}}x.",
 
-    "config.open-chest.name": "Open chest", // TODO
-    "config.open-chest.tooltip": "How fast you open chests. Default {{defaultValue}}x.", // TODO
+    "config.open-chest.name": "Ouvrir les coffres",
+    "config.open-chest.tooltip": "Rapidité avec laquelle vous ouvrez les coffres. Valeur par défault {{defaultValue}}x.",
 
-    "config.parrot-express.name": "Parrot express", // TODO
-    "config.parrot-express.tooltip": "How fast the parrot express runs. Default {{defaultValue}}x.", // TODO
+    "config.parrot-express.name": "Perroquet Express",
+    "config.parrot-express.tooltip": "Rapidité avec laquelle le Perroquet Express va. Valeur par défault {{defaultValue}}x.",
 
-    "config.prize-ticket-machine.name": "Prize ticket machine", // TODO
-    "config.prize-ticket-machine.tooltip": "How fast Lewis' prize ticket machine accepts a ticket and produces an item. Default {{defaultValue}}x.", // TODO
+    "config.prize-ticket-machine.name": "Machine à prix",
+    "config.prize-ticket-machine.tooltip": "Rapidité avec laquelle la machine à prix de Lewis accepte un ticket et produit un prix. Valeur par défault {{defaultValue}}x.",
 
-    "config.tailor.name": "Tailor", // TODO
-    "config.tailor.tooltip": "How fast the sewing machine works. Default {{defaultValue}}x.", // TODO
+    "config.tailor.name": "Couture",
+    "config.tailor.tooltip": "Rapidité avec laquelle la machine à coudre fonctionne. Valeur par défault {{defaultValue}}x.",
 
     "config.tree-fall.name": "Chute d'arbre",
     "config.tree-fall.tooltip": "Vitesse à laquelle les arbres tombent après avoir été abattus. Valeur par défaut {{defaultValue}}x, valeur suggérée {{suggestedValue}}x.",
 
-    "config.wheel-spin.name": "Wheel spin", // TODO
-    "config.wheel-spin.tooltip": "How fast the Stardew Valley Fair wheel minigame spins. Default {{defaultValue}}x.", // TODO
+    "config.wheel-spin.name": "La roue",
+    "config.wheel-spin.tooltip": "Rapidité avec laquelle la roue du Grand Festival de Stardew Valley tourne. Valeur par défault {{defaultValue}}x.",
 
     /****
     ** 'UI Animation Speeds' section
     ****/
     "config.ui-speeds": "Vitesse d'animation de l'interface utilisateur",
 
-    "config.dialogue-typing.name": "Dialogue typing", // TODO
-    "config.dialogue-typing.tooltip": "How fast text appears in dialogue boxes. Default {{defaultValue}}x", // TODO
+    "config.dialogue-typing.name": "2criture des dialogues",
+    "config.dialogue-typing.tooltip": "Rapidité avec laquelle les dialogues apparaissent dans les cases. Valeur par défault {{defaultValue}}x",
 
-    "config.open-dialogue-box.name": "Open dialogue box", // TODO
-    "config.open-dialogue-box.tooltip": "How fast dialogue boxes open. Default {{defaultValue}}x.", // TODO
+    "config.open-dialogue-box.name": "Ouvrir la boîte de dialogue",
+    "config.open-dialogue-box.tooltip": "Rapidité avec laquelle les boîtes de dialogue s'ouvrent. Valeur par défault {{defaultValue}}x.",
 
     "config.title-menu.name": "Transitions du menu titre",
     "config.title-menu.tooltip": "Vitesse de transition du menu titre entre les écrans. Valeur par défaut {{defaultValue}}x.",
@@ -115,9 +115,9 @@
     /****
     ** 'Experimental' section
     ****/
-    "config.experimental": "Experimental options", // TODO
-    "config.experimental-warning": "These options aren't fully stable yet, and may cause issues like freezes and crashes. Enabling any of these isn't recommended.", // TODO
+    "config.experimental": "Options expérimentales",
+    "config.experimental-warning": "Ces options ne sont pas encore totalement stables et peuvent entraîner des problèmes tels que des blocages et des pannes. Il n'est pas recommandé d'activer l'une de ces options.",
 
-    "config.event.name": "Event cutscene", // TODO
-    "config.event.tooltip": "How fast event cutscenes play. Default {{defaultValue}}x, suggested {{suggestedValue}}x." // TODO
+    "config.event.name": "Cinématique d'évènement",
+    "config.event.tooltip": "Rapidité avec laquelle les cinématiques d'évènement se produisent. Valeur par défault {{defaultValue}}x, valeur suggérée {{suggestedValue}}x."
 }
