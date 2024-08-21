@@ -5,39 +5,39 @@
     // accessible
     "accessible.name": "Accessibilité",
     "accessible.clear": "Libre",
-    "accessible.occupied": "Occupée",
+    "accessible.occupied": "Occupé",
     "accessible.impassable": "Infranchissable",
     "accessible.warp": "Passage",
 
     // buildable
     "buildable.name": "Construction",
     "buildable.buildable": "Constructible",
-    "buildable.occupied": "Occupée",
+    "buildable.occupied": "Occupé",
     "buildable.not-buildable": "Non constructible",
 
     // coverage: bee houses
-    "bee-houses.name": "Couverture : Ruche",
+    "bee-houses.name": "Portée : Ruche",
     "bee-houses.range": "Portée des fleurs",
 
     // coverage: Junimo huts
-    "junimo-huts.name": "Couverture : Hutte Junimo",
+    "junimo-huts.name": "Portée : Hutte Junimo",
     "junimo-huts.can-harvest": "Récoltable",
     "junimo-huts.cannot-harvest": "Non récoltable",
 
     // coverage: scarecrows
-    "scarecrows.name": "Couverture : Épouvantail",
-    "scarecrows.protected": "Protégée",
-    "scarecrows.exposed": "Exposée",
+    "scarecrows.name": "Portée : Épouvantail",
+    "scarecrows.protected": "Protégé",
+    "scarecrows.exposed": "Exposé",
 
     // coverage: sprinklers
-    "sprinklers.name": "Couverture : Arroseur",
-    "sprinklers.covered": "Couverte",
-    "sprinklers.dry-crops": "Non couverte",
+    "sprinklers.name": "Portée : Arroseur",
+    "sprinklers.covered": "Couvert",
+    "sprinklers.dry-crops": "Non couvert",
 
     // crops: harvest
     "crop-harvest.name": "Culture : Récoltes",
-    "crop-harvest.ready": "Prête",
-    "crop-harvest.not-ready": "Pas prête",
+    "crop-harvest.ready": "Prêt",
+    "crop-harvest.not-ready": "Pas prêt",
     "crop-harvest.not-enough-time-or-dead": "Pas assez de temps (ou mort)",
 
     // crops: watered
@@ -58,10 +58,10 @@
     "crop-fertilizer.multiple": "Types d'engrais multiples",
 
     // machine processing
-    "machines.name": "Traitement des Machines",
+    "machines.name": "Traitement des machines",
     "machines.empty": "Vide",
     "machines.processing": "En cours",
-    "machines.finished": "Terminée",
+    "machines.finished": "Terminé",
 
     // tile grid
     "grid.name": "Grille de cases",
@@ -69,8 +69,8 @@
     // tillable
     "tillable.name": "Labourable",
     "tillable.tillable": "Labourable",
-    "tillable.tilled": "Labourée",
-    "tillable.occupied": "Occupée",
+    "tillable.tilled": "Labouré",
+    "tillable.occupied": "Occupé",
     "tillable.not-tillable": "Non Labourable",
 
 
@@ -79,41 +79,41 @@
     *********/
     // TODO
     // section names
-    "config.section.main-options": "Main options",
-    "config.section.main-controls": "Main controls",
-    "config.section.layer": "'{{LayerName}}' layer", // {{LayerName}} is the layer name set above.
+    "config.section.main-options": "Options principales",
+    "config.section.main-controls": "Contrôles principaux",
+    "config.section.layer": "'{{LayerName}}' calque", // {{LayerName}} is the layer name set above.
 
     // main options
-    "config.show-grid.name": "Show grid",
-    "config.show-grid.desc": "Whether to show a tile grid when a layer is open.",
+    "config.show-grid.name": "Montrer la grille",
+    "config.show-grid.desc": "Si l'on doit montrer la grille quand la couche est active.",
 
-    "config.combine-borders.name": "Combine overlapping borders",
-    "config.combine-borders.desc": "When two groups of the same color overlap, whether to draw one border around their combined edge instead of their individual borders.",
+    "config.combine-borders.name": "Combiner les bordures qui se chevauchent",
+    "config.combine-borders.desc": "Lorsque deux groupes de même couleur se chevauchent, s'il faut tracer une bordure autour de leur bord combiné au lieu de leurs bordures individuelles.",
 
-    "config.color-scheme.name": "Color scheme",
-    "config.color-schene.desc": "The color scheme to apply, which changes the colors throughout all the data layers.",
-    "config.color-schemes.default": "default colors",
+    "config.color-scheme.name": "Thème couleur",
+    "config.color-schene.desc": "Le thème de couleurs à appliquer, qui modifie les couleurs de tous les calque de données..",
+    "config.color-schemes.default": "couleurs par défault",
 
     // main controls
-    "config.toggle-layer-key.name": "Toggle data layers",
-    "config.toggle-layer-key.desc": "The key binding which shows or hides the data layer overlay.",
+    "config.toggle-layer-key.name": "Basculer les calques de données",
+    "config.toggle-layer-key.desc": "La configuration de touche qui permet d'afficher ou de masquer le calque de données superposé.",
 
-    "config.prev-layer-key.name": "Previous layer key",
-    "config.prev-layer-key.desc": "The key binding which cycles backwards through the available data layers.",
+    "config.prev-layer-key.name": "Touche couche précédente",
+    "config.prev-layer-key.desc": "La touche qui fait défiler vers l'arrière les calques de données disponibles.",
 
-    "config.next-layer-key.name": "Next layer key",
-    "config.next-layer-key.desc": "The key binding which cycles forward through the available data layers.",
+    "config.next-layer-key.name": "Touche couche suivante",
+    "config.next-layer-key.desc": "La touche qui fait défiler vers l'avant les calques de données disponibles.",
 
     // data layers
-    "config.layer-enabled.name": "Enabled",
-    "config.layer-enabled.desc": "Whether this layer should be available in-game.",
+    "config.layer-enabled.name": "Activé",
+    "config.layer-enabled.desc": "Si ce calque doit être disponible en jeu.",
 
-    "config.layer-update-on-view-change.name": "Update when view changes",
-    "config.layer-update-on-view-change.desc": "Whether the drawn layer info should be updated when a new part of the world moves into view, regardless of the 'updates per second' setting.",
+    "config.layer-update-on-view-change.name": "Mise à jour lorsque la vue change",
+    "config.layer-update-on-view-change.desc": "Indique si les informations du calque actif doivent être mises à jour lorsqu'une nouvelle partie du monde est visible, quel que soit le paramètre 'mises à jour par seconde'.",
 
-    "config.layer-updates-per-second.name": "Updates per second",
-    "config.layer-updates-per-second.desc": "How often the layer should update when it's being displayed, as a number per second. Setting this to a higher value than the default may cause lag. Default {{defaultValue}}.",
+    "config.layer-updates-per-second.name": "Mises à jour par seconde",
+    "config.layer-updates-per-second.desc": "Fréquence de mise à jour du calque lors de son affichage, en nombre par seconde. Une valeur plus élevée que la valeur par défaut peut entraîner un décalage. Valeur par défaut {{defaultValue}}.",
 
-    "config.layer-shortcut.name": "Shortcut key",
-    "config.layer-shortcut.desc": "The key binding which selects this layer when the overlay is open."
+    "config.layer-shortcut.name": "Touche raccourci",
+    "config.layer-shortcut.desc": "La touche qui sélectionne ce calque lorsque la superposition est active."
 }
