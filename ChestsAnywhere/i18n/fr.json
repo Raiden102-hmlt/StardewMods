@@ -5,8 +5,8 @@
     // default chest names
     "default-name.fridge": "Réfrigérateur",
     "default-name.other": "{{name}} #{{number}}",
-    "default-name.shipping-bin.store": "ajouter des objets",
-    "default-name.shipping-bin.take": "récupérer des objets",
+    "default-name.shipping-bin.store": "Ajouter des objets",
+    "default-name.shipping-bin.take": "Récupérer des objets",
 
     // default category names
     "default-category.owned-cabin": "Cabane de {{owner}}",
@@ -15,7 +15,7 @@
 
     // edit-chest labels
     "label.location": "Lieu",
-    "label.location.tile": "case {{x}}, {{y}}",
+    "label.location.tile": "Case {{x}}, {{y}}",
     "label.name": "Nom",
     "label.category": "Catégorie",
     "label.order": "Ordre",
@@ -24,16 +24,16 @@
     "label.automate-options": "Automatisation",
     "label.automate-store": "Mettre les objets dans ce coffre",
     "label.automate-store-first": "Mettre les objets dans ce coffre d'abord",
-    "label.automate-store-disabled": "Ne jamais mettre d'objet dans ce coffre",
+    "label.automate-store-disabled": "Ne jamais mettre d'objets dans ce coffre",
     "label.automate-take": "Obtenir les objets dans ce coffre",
     "label.automate-take-first": "Obtenir les objets dans ce coffre d'abord",
-    "label.automate-take-disabled": "Ne jamais prendre d'objet dans ce coffre",
+    "label.automate-take-disabled": "Ne jamais prendre d'objets dans ce coffre",
 
     // button labels
-    "button.edit-chest": "modifier coffre",
-    "button.sort-inventory": "trier inventaire",
-    "button.save": "enregistrer",
-    "button.reset": "réinitialiser",
+    "button.edit-chest": "Modifier le coffre",
+    "button.sort-inventory": "Trier l'inventaire",
+    "button.save": "Enregistrer",
+    "button.reset": "Réinitialiser",
 
 
     /**********
@@ -42,7 +42,7 @@
     "errors.disabled-from-here": "Vous ne pouvez accéder aux coffres depuis ici.",
     "errors.no-chests": "Vous n'avez aucun coffre.",
     "errors.no-chests-in-location": "Vous n'avez aucun coffre dans cette zone.",
-    "errors.no-chests-in-range": "Vous n'avez aucun coffre à portée.",
+    "errors.no-chests-in-range": "Vous n'avez aucun coffre à votre portée.",
 
 
     /**********
@@ -59,11 +59,11 @@
     "config.enable-shipping-bin.name": "Activer le bac d'expédition",
     "config.enable-shipping-bin.desc": "Si l'accès au bac d'expédition doit être autorisé.",
 
-    "config.enable-sprinkler-attachments.name": "Enable sprinkler attachments", // TODO
-    "config.enable-sprinkler-attachments.desc": "Whether to enable access to sprinkler attachments like enrichers.", // TODO
+    "config.enable-sprinkler-attachments.name": "Permettre les accessoires d'arroseurs", // TODO
+    "config.enable-sprinkler-attachments.desc": "Si l'accès aux accessoires d'arroseurs comme les enrichisseurs doit être autorisé.", // TODO
 
     "config.add-organize-player-items.name": "Ajout d'un bouton d'organisation des éléments du lecteur",
-    "config.add-organize-player-items.desc": "Ajout ou non d'un bouton 'organiser' dans les interfaces de coffre pour l'inventaire du joueur.",
+    "config.add-organize-player-items.desc": "Ajout ou non d'un bouton 'Organiser' dans les interfaces de coffre pour l'inventaire du joueur.",
 
     "config.range.name": "Portée",
     "config.range.desc": "La portée à laquelle les coffres sont accessibles par le menu.",
@@ -85,11 +85,11 @@
     ****/
     "config.title.menu-controls": "Contrôles lorsque l'IU du coffre est ouverte",
 
-    "config.edit-chest.name": "Edition du coffre",
+    "config.edit-chest.name": "Édition du coffre",
     "config.edit-chest.desc": "Les touches qui éditent les options pour le coffre actuel.",
 
     "config.sort-items.name": "Trier les éléments",
-    "config.sort-items.desc": "Les touches qui permettent de trier les articles dans le coffre actuel.",
+    "config.sort-items.desc": "Les touches qui permettent de trier les objets dans le coffre actuel.",
 
     "config.navigate-prev-chest.name": "Naviguer : coffre précédent",
     "config.navigate-prev-chest.desc": "Les touches qui permettent de naviguer vers le coffre précédent lorsque le menu est ouvert.",
