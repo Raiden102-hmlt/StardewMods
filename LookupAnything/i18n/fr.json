@@ -29,13 +29,13 @@
     "generic.in-x-days": "dans {{count}} jours",
     "generic.x-days-ago": "il y a {{count}} jours",
     "generic.price": "{{price}}po",
-    "generic.price-for-quality": "{{price}}po ({{quality}})",
-    "generic.price-for-stack": "{{price}}po le lot de {{count}}",
+    "generic.price-for-quality": "{{price}}pour ({{quality}})",
+    "generic.price-for-stack": "{{price}}pour le lot de {{count}}",
     "generic.show-x-results": "montrer {{count}} résultats",
 
     // types
     "type.building": "Bâtiment",
-    "type.bush": "arbuste",
+    "type.bush": "Arbuste",
     "type.fruit-tree": "Arbre fruitier",
     "type.map-tile": "Case de carte",
     "type.monster": "Monstre",
@@ -51,7 +51,7 @@
     "quality.iridium": "iridium",
 
     // item names shown in recipes
-    "item.wild-seeds": "Wild Seeds (Any)", // TODO
+    "item.wild-seeds": "Mélange de graines (N'importe)", // TODO
 
     // NPC friendship
     "friendship-status.friendly": "Ami",
@@ -80,7 +80,7 @@
     "shop.marnie": "Marnie",
     "shop.pierre": "Pierre",
     "shop.robin": "Robine",
-    "shop.volcano": "boutique dans le volcan",
+    "shop.volcano": "Boutique dans le volcan",
     "shop.willy": "Willy",
 
     // recipe types
@@ -108,8 +108,8 @@
 
     // location names
     "location.beach.east-pier": "plage (jetée à l'est)",
-    "location.bugLand": "repaire des insectes mutants",
-    "location.desert.topPond": "desert (north pond)", // TODO
+    "location.bugLand": "repère des insectes mutants",
+    "location.desert.topPond": "désert (north pond)", // TODO
     "location.farmCave": "grotte de la ferme",
     "location.farmHouse": "maison de ferme",
     "location.forest.island-tip": "rivière de la forêt (pointe sud de la grande île)",
@@ -139,30 +139,30 @@
     ** Conditions & context tags
     *********/
     // TODO
-    "condition-or-context-tag.negate": "not {{value}}",
+    "condition-or-context-tag.negate": "non {{value}}",
 
-    "condition.day-of-month": "on specific days ({{days}})",
-    "condition.day-of-month.even": "even days",
-    "condition.day-of-month.odd": "odd days",
+    "condition.day-of-month": "à des jours précis ({{days}})",
+    "condition.day-of-month.even": "jours pairs",
+    "condition.day-of-month.odd": "jours impairs",
 
-    "condition.item-type.input": "input item",
-    "condition.item-type.target": "target item",
+    "condition.item-type.input": "objet d'entrée",
+    "condition.item-type.target": "objet visé",
 
-    "condition.raw-context-tag": "context tag \"{{tag}}\"",
-    "condition.raw-condition": "query \"{{tag}}\"",
+    "condition.raw-context-tag": "balise de contexte \"{{tag}}\"",
+    "condition.raw-condition": "requête \"{{tag}}\"",
 
-    "condition.item-context-tag": "{{item}} has context tag {{tags}}",
-    "condition.item-context-tags": "{{item}} has context tags {{tags}}",
+    "condition.item-context-tag": "{{item}} a une balise de contexte {{tags}}",
+    "condition.item-context-tags": "{{item}} a des balises de contexte {{tags}}",
     "condition.item-context-tag.value": "'{{tag}}'", // the format of each context tag in the list (each context tag isn't translated)
 
-    "condition.item-edibility.edible": "{{item}} is edible",
-    "condition.item-edibility.min": "{{item}} has edibility of {{min}} or more",
-    "condition.item-edibility.range": "{{item}} has edibility of {{min}} to {{max}}",
+    "condition.item-edibility.edible": "{{item}} est comestible",
+    "condition.item-edibility.min": "{{item}} a une comestibilité de {{min}} ou plus",
+    "condition.item-edibility.range": "{{item}} a une comestibilité de {{min}} à {{max}}",
 
-    "context-tag.bone": "any bone",
-    "context-tag.egg": "any egg",
-    "context-tag.large-egg": "any large egg",
-    "context-tag.preserved-item": "preserved {{name}}",
+    "context-tag.bone": "n'importe quel os",
+    "context-tag.egg": "n'importe quel oeuf",
+    "context-tag.large-egg": "n'importe quel gros oeuf ",
+    "context-tag.preserved-item": "préservé {{name}}",
 
 
     /*********
@@ -183,7 +183,7 @@
     "animal.complaints.new-home": "déplacé dans une nouvelle maison",
     "animal.complaints.no-heater": "n'est pas chauffé pendant l'hiver",
     "animal.complaints.not-petted": "n'a pas été carressé aujourd'hui",
-    "animal.complaints.wild-animal-attack": "a été attaqué par des animaux sauvages pendant la nuit",
+    "animal.complaints.wild-animal-attack": "a été attaqué par des animaux sauvages durant la nuit",
 
 
     /*********
@@ -192,7 +192,7 @@
     // labels
     "building.animals": "Animaux",
     "building.construction": "Construction",
-    "building.construction-costs": "Construction costs", // TODO
+    "building.construction-costs": "Coûts de construction", // TODO
     "building.feed-trough": "Mangeoire",
     "building.horse": "Cheval",
     "building.horse-location": "Position du cheval",
@@ -237,7 +237,7 @@
     // values
     "building.fish-pond.population.empty": "Ajoutez un poisson pour démarrer cet étang",
     "building.fish-pond.population.next-spawn": "Nouveau poisson le {{relativeDate}}",
-    "building.fish-pond.drops.preface": "{{chance}}% de chance chaque jour de produire le premier item matché :",
+    "building.fish-pond.drops.preface": "{{chance}}% de chance chaque jour de produire le premier objet associé :",
     "building.fish-pond.drops.min-fish": "Avec {{count}} poissons :",
     "building.fish-pond.quests.done": "{{count}} poisson(s)",
     "building.fish-pond.quests.incomplete-one": "{{count}} poisson(s) : auront besoin de {{itemName}}",
@@ -262,7 +262,7 @@
     // values
     "bush.growth.summary": "prêt le {{date}}",
     "bush.schedule.berry": "20% de chance de baies de saumon du 15 au 18 printemps et de mûres du 8 au 11 automne.",
-    "bush.schedule.tea": "Fais pousser des feuilles de thé à partie du 22 de chaque saison (sauf en hiver si hors de la serre).",
+    "bush.schedule.tea": "Fait pousser des feuilles de thé à partir du 22 de chaque saison (sauf en hiver si hors de la serre).",
 
 
     /*********
@@ -340,19 +340,19 @@
     "item.undiscovered-gift-taste-appended": ", et {{count}} goût(s) de villageois non découvert(s)",
     "item.needed-for.community-center": "centre communautaire ({{bundles}})",
     "item.needed-for.full-shipment": "succès de livraison complète (1 à livrer)",
-    "item.needed-for.monoculture": "monoculture achievement (ship {{count}} more)", // TODO
+    "item.needed-for.monoculture": "succès monoculture (expédier {{count}} de plus)", // TODO
     "item.needed-for.polyculture": "succès polyculture ({{count}} encore à livrer)",
     "item.needed-for.full-collection": "succès collection complète (1 à donner au musée)",
     "item.needed-for.gourmet-chef": "succès chef gourmet (cuisiner {{recipes}})",
     "item.needed-for.craft-master": "succès maître artisant (fabriquer {{recipes}})",
     "item.needed-for.quests": "quêtes en cours ({{quests}})",
-    "item.unknown-recipes": "{{count}} unknown recipes", // TODO
+    "item.unknown-recipes": "{{count}} recettes inconnues", // TODO
     "item.sells-to.shipping-box": "bac d'expédition",
     "item.recipes-for-ingredient.entry": "{{name}} (nécessite {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x {{count}}",
     "item.recipes-for-machine.same-as-input": "[same as input]", // e.g. crystalarium produces same item that was put in // TODO
     "item.recipes-for-machine.conditions": "[conditions: {{conditions}}]", // TODO
-    "item.recipes-for-machine.too-complex": "Some machine rules are too dynamic to display.", // TODO
+    "item.recipes-for-machine.too-complex": "Certaines règles de machine sont trop dynamiques pour être affichées.", // TODO
     "item.number-owned.summary": "vous en possédez {{count}}",
     "item.number-crafted.summary": "vous en avez fabriqué {{count}}",
 
@@ -501,7 +501,7 @@
     "npc.friendship.need-bouquet": "besoin d'un bouquet",
     "npc.friendship.need-points": "manque {{count}} pts",
     "npc.undiscovered-gift-taste": "{{count}} goût(s) non révelé(s)",
-    "npc.unowned-gift-taste": "{{count}} unowned items", // TODO
+    "npc.unowned-gift-taste": "{{count}} objets non possédés", // TODO
 
 
     /*********
@@ -603,7 +603,7 @@
     "puzzle.island-shrine.title": "Puzzle du sanctuaire",
 
     // values
-    "puzzle.island-shrine.solution": "Pour chaque piédestal, placez l'objet déposé par les oiseaux gemmes à l'emplacement correspondant de l'île lorsqu'il pleut. Les objects sont randomisés pour chaque sauvegarde.",
+    "puzzle.island-shrine.solution": "Pour chaque piédestal, placez l'objet déposé par les oiseaux gemmes à l'emplacement correspondant de l'île lorsqu'il pleut. Les objects sont aléatoires pour chaque sauvegarde.",
     "puzzle.island-shrine.solution.east": "Est: {{item}}",
     "puzzle.island-shrine.solution.north": "Nord: {{item}}",
     "puzzle.island-shrine.solution.south": "Sud: {{item}}",
@@ -652,8 +652,8 @@
     "tree.name.oak": "Chêne",
     "tree.name.palm": "Palmier",
     "tree.name.pine": "Pin",
-    "tree.name.mossy": "Mossy Tree", // TODO
-    "tree.name.mystic": "Mystic Tree", // TODO
+    "tree.name.mossy": "Arbre Moussu", // TODO
+    "tree.name.mystic": "Arbre Mystique", // TODO
     "tree.name.unknown": "Arbre inconnu",
     "tree.stage.done": "Taille adulte",
     "tree.stage.partial": "{{stageName}} ({{step}} sur {{max}})",
@@ -685,14 +685,14 @@
     // TODO
     "config.title.progression": "Mode de progression",
 
-    "config.progression.show-unknown-gift-tastes.name": "Show unknown gift tastes",
-    "config.progression.show-unknown-gift-tastes.desc": "Whether to show gift tastes you haven't learned about in-game yet (e.g. from dialogue text or experimenting).",
+    "config.progression.show-unknown-gift-tastes.name": "Afficher les goûts inconnus en matière de cadeaux",
+    "config.progression.show-unknown-gift-tastes.desc": "Si l'on veut montrer les goûts des cadeaux que l'on n'a pas encore appris à connaître dans le jeu (par exemple, dans le texte du dialogue ou lors d'un test)..",
 
-    "config.progression.show-unknown-recipes.name": "Show unknown recipes",
-    "config.progression.show-unknown-recipes.desc": "Whether to show recipes you haven't learned in-game yet.",
+    "config.progression.show-unknown-recipes.name": "Afficher les recettes inconnues",
+    "config.progression.show-unknown-recipes.desc": "Si l'on doit afficher les recettes que vous n'avez pas encore apprises dans le jeu.",
 
-    "config.progression.show-puzzle-solutions.name": "Show puzzle solutions",
-    "config.progression.show-puzzle-solutions.desc": "Whether to show puzzle solutions.",
+    "config.progression.show-puzzle-solutions.name": "Afficher les solutions des énigmes",
+    "config.progression.show-puzzle-solutions.desc": "Si l'on doit afficher les solutions des énigmes.",
 
     // gift tastes
     "config.title.gift-tastes": "Goûts en matière de cadeaux",
@@ -715,15 +715,15 @@
 
     // collapse fields
     // TODO
-    "config.title.collapse-fields": "Collapse large fields",
+    "config.title.collapse-fields": "Réduire les grands champs de données",
 
-    "config.collapse-fields.enabled.name": "Enabled",
-    "config.collapse-fields.enabled.desc": "Whether to collapse large fields, so the lookup menu will replace the list with a clickable 'show X values' link to expand it.",
+    "config.collapse-fields.enabled.name": "Activé",
+    "config.collapse-fields.enabled.desc": "S'il faut réduire les champs de grande taille, le menu de recherche remplacera la liste par un lien cliquable 'afficher les valeurs X' pour la développer.",
 
-    "config.collapse-fields.building-recipes.name": "Building lookup: recipes",
-    "config.collapse-fields.item-recipes.name": "Item lookup: recipes",
-    "config.collapse-fields.npc-gift-tastes.name": "NPC lookup: gift tastes",
-    "config.collapse-fields.any.desc": "If the field contains this many values, the lookup menu will replace the list with a clickable 'show X values' link to expand it.",
+    "config.collapse-fields.building-recipes.name": "Recherche de bâtiments : recettes",
+    "config.collapse-fields.item-recipes.name": "Recherche des objets : recettes",
+    "config.collapse-fields.npc-gift-tastes.name": "Recherche de PNJ : goûts de cadeaux",
+    "config.collapse-fields.any.desc": "Si le champ contient autant de valeurs, le menu de recherche remplacera la liste par un lien cliquable 'afficher X valeurs' pour la développer.",
 
     // advanced options
     "config.title.advanced-options": "Options avancées",
