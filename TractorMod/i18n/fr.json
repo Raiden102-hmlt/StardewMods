@@ -31,7 +31,7 @@
     ** Warnings
     ****/
     // TODO
-    "config.questable-tractor-warning": "You have Questable Tractor installed. That mod works by overriding the tractor settings, so it may reset changes you make here.",
+    "config.questable-tractor-warning": "Vous avez installé Questable Tractor. Ce mod fonctionne en remplaçant les paramètres du tracteur, il peut donc réinitialiser les changements que vous faites ici.",
 
 
     /****
@@ -50,14 +50,14 @@
     "config.build-price.tooltip": "Le prix pour acheter le hangar. Valeur par défaut {{defaultValue}}g.",
 
     // TODO
-    "config.require-build-materials.name": "Require Build Materials",
-    "config.require-build-materials.tooltip": "Whether you need to provide materials to build a tractor garage, in addition to the gold price.",
+    "config.require-build-materials.name": "Matériaux de Construction Requis",
+    "config.require-build-materials.tooltip": "S'il faut fournir des matériaux pour construire le hangar pour le tracteur, en plus de payer le prix.",
 
     "config.can-summon-without-garage.name": "Peut invoquer sans garage",
     "config.can-summon-without-garage.tooltip": "Vous pouvez convoquer un tracteur temporaire sans construire le hangar au préalable.",
 
     "config.invincible-on-tractor.name": "Invincible sur tracteur",
-    "config.invincible-on-tractor.tooltip": "Etre immunisé contre les dommages de toute origine lorsque vous conduisez le tracteur.",
+    "config.invincible-on-tractor.tooltip": "Etre immunisé contre les dégats de toute origine lorsque vous conduisez le tracteur.",
 
     "config.highlight-radius.name": "Rayon de surbrillance (Debug)",
     "config.highlight-radius.tooltip": "Possibilité de mettre en évidence le rayon du tracteur lorsqu'on en conduit un, pour aider à visualiser l'option de distance.",
@@ -73,8 +73,8 @@
     "config.tractor-sounds.value.Tractor": "bruit de tracteur",
 
     // TODO
-    "config.tractor-volume.name": "Sound Effects Volume",
-    "config.tractor-volume.tooltip": "The volume level for the tractor sound effects. Default {{defaultValue}}%.",
+    "config.tractor-volume.name": "Volume des Effets Sonores",
+    "config.tractor-volume.tooltip": "Niveau de volume des effets sonores du tracteur. Valeur par défaut {{defaultValue}}%.",
 
 
     /****
@@ -121,12 +121,12 @@
     "config.harvest-fruit-trees.tooltip": "S'il faut récolter les arbres fruitiers.",
 
     // TODO
-    "config.harvest-tree-moss.name": "Harvest Tree Moss",
-    "config.harvest-tree-moss.tooltip": "Whether to collect moss from trees.",
+    "config.harvest-tree-moss.name": "Récolter la Mousse des Arbres",
+    "config.harvest-tree-moss.tooltip": "S'il faut récolter la mousse des arbres",
 
     // TODO
-    "config.harvest-tree-seeds.name": "Harvest Tree Seeds",
-    "config.harvest-tree-seeds.tooltip": "Whether to collect seeds from trees.",
+    "config.harvest-tree-seeds.name": "Récolter les Graines d'Arbre",
+    "config.harvest-tree-seeds.tooltip": "Si faut récolter les graines d'arbre.",
 
 
     /****
@@ -177,11 +177,11 @@
     "config.dig-artifact-spots.tooltip": "S'il faut déterrer les artefacts.",
 
     // TODO
-    "config.dig-seed-spots.name": "Dig Seed Spots",
-    "config.dig-seed-spots.tooltip": "Whether to dig up seed spots.",
+    "config.dig-seed-spots.name": "Déterrer les Semences",
+    "config.dig-seed-spots.tooltip": "Déterrer ou non les semences.",
 
-    "config.clear-tilled-dirt.name": "Déblayer terre labourée",
-    "config.clear-tilled-dirt.tooltip": "S'il faut déblayer une terre labourée.",
+    "config.clear-tilled-dirt.name": "Déblayer la terre labourée",
+    "config.clear-tilled-dirt.tooltip": "S'il faut déblayer les terres labourées.",
 
 
     /****
@@ -220,30 +220,30 @@
     /****
     ** Other
     ****/
-    "config.milk-pail.name": "Activer seau à lait",
+    "config.milk-pail.name": "Activer le seau à lait",
     "config.milk-pail.tooltip": "S'il faut collecter le lait des animaux de la ferme à l'aide du seau à lait.",
 
-    "config.shears.name": "Activer les ciseaux",
-    "config.shears.tooltip": "S'il faut collecter la laine des animaux de ferme à l'aide des ciseaux.",
+    "config.shears.name": "Activer les cisailles",
+    "config.shears.tooltip": "S'il faut collecter la laine des animaux de ferme à l'aide des cisailles.",
 
-    "config.watering-can.name": "Activer arrosoir",
+    "config.watering-can.name": "Activer l'arrosoir",
     "config.watering-can.tooltip": "S'il faut arroser les tuiles voisines à l'aide de l'arrosoir. Ceci ne consomme pas l'eau de l'arrosoir.",
 
-    "config.fertilizer.name": "Activer engrais",
-    "config.fertilizer.tooltip": "Appliquer l'engrais sur les cultures et les terres labourées.",
+    "config.fertilizer.name": "Activer l'engrais",
+    "config.fertilizer.tooltip": "S'il faut appliquer l'engrais sur les cultures et les terres labourées.",
 
     "config.grass-starters.name": "Activer la plantation de gazon",
-    "config.grass-starters.tooltip": "S'il faut planter des semences de gazon.",
+    "config.grass-starters.tooltip": "S'il faut planter les semences de gazon.",
 
     "config.seeds.name": "Activer les graines",
     "config.seeds.tooltip": "S'il faut planter les graines",
 
-    "config.seed-bags.name": "Activer sacs de semences",
+    "config.seed-bags.name": "Activer le mod Seed Bag",
     "config.seed-bags.tooltip": "Si vous voulez planter des graines à partir du mod Seed Bag.",
 
     "config.slingshot.name": "Activer le lance-pierre",
-    "config.slingshot.tooltip": "Si la fronde doit être tirée vers le curseur. (Ceci est massivement surpuissant et consommera voracement des munitions en raison de la vitesse de l'outil tracteur).",
+    "config.slingshot.tooltip": "Si le lancie-pierre doit être tiré vers le curseur. (Ceci est massivement surpuissant et consommera voracement des munitions en raison de la vitesse de l'outil tracteur).",
 
     "config.custom-tool-names.name": "Noms des outils personnalisés",
-    "config.custom-tool-names.tooltip": "Les objets/outils personnalisés à activer lorsque vous conduisez le tracteur. Les outils seront utilisés sur chaque tuile environnante, tandis que les objets seront posés. Si vous spécifiez quelque chose qui est déjà pris en charge (comme la hache), cela annule toutes les limitations sur son utilisation. Vous devez spécifier le nom interne exact (et non le nom d'affichage traduit), comme 'Axe' ou 'Mega Bomb'. Séparez les valeurs multiples par des virgules."
+    "config.custom-tool-names.tooltip": "Les objets/outils personnalisés à activer lorsque vous conduisez le tracteur. Les outils seront utilisés sur chaque tuile environnante, tandis que les objets seront posés. Si vous spécifiez quelque chose qui est déjà pris en charge (comme la hache), cela annule toutes les limitations sur son utilisation. Vous devez spécifier le nom interne exact (et non le nom d'affichage traduit), comme 'Axe' ou 'Méga-bombe'. Séparez les valeurs multiples par des virgules."
 }
